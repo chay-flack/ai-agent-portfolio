@@ -1,0 +1,10 @@
+# Agents
+
+This directory contains individual AI agent prototypes.
+
+Each agent focuses on a specific problem or workflow, with an emphasis on:
+- Clear problem framing
+- Simple, inspectable logic
+- Practical considerations around control, risk, and failure modes
+
+Agents are intentionally lightweight and exploratory.
