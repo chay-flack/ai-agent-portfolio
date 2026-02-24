@@ -1,0 +1,133 @@
+## AI Operational Specification (AI-OPS) Framework
+
+This repository describes a practical framework for defining, approving, and governing
+what “good” operation looks like for AI systems and automated workflows in a banking
+and regulated environment.
+
+The framework establishes a clear, immutable reference for authorised behaviour,
+decision boundaries, and escalation expectations once an AI system is commissioned.
+
+---
+
+## What this is
+
+The AI Operational Specification (AI-OPS) framework defines the **approved operating
+parameters** for an AI system or workflow.
+
+It describes:
+- what the system is allowed to do
+- what it must not do
+- what data and systems it may access
+- what outputs are expected and acceptable
+- how failure and uncertainty are handled
+
+AI-OPS acts as the authoritative reference against which pre-flight checks,
+operational monitoring, and assurance activities are performed.
+
+---
+
+## Why this exists
+
+In practice, AI governance often fails because expectations are implicit rather than explicit.
+
+Common issues include:
+- unclear boundaries between decision support and decision execution
+- silent expansion of scope over time
+- disagreement about what constitutes acceptable behaviour
+- monitoring that detects change but cannot assess materiality
+- difficulty demonstrating what was approved “at the time”
+
+The AI-OPS framework addresses these gaps by making operating expectations explicit,
+reviewable, and governable.
+
+---
+
+## Role within the AI governance lifecycle
+
+AI-OPS sits at the centre of the AI governance lifecycle:
+
+- Pre-flight governance uses AI-OPS to assess readiness and authorisation
+- Operational oversight uses AI-OPS as the benchmark for detecting drift or deviation
+- Change management uses AI-OPS to assess the impact of updates or extensions
+- Assurance and audit use AI-OPS to evidence approved operating conditions
+
+Without a clear operational specification, oversight and governance become subjective.
+
+---
+
+## Scope of an operational specification
+
+An AI-OPS artefact typically defines:
+
+- system purpose and scope
+- authorised and prohibited actions
+- decision authority and autonomy level
+- data inputs and access boundaries
+- expected outputs and confidence expectations
+- tolerance thresholds for variance, drift, or latency
+- known failure modes and escalation requirements
+- conditions requiring pause, rollback, or re-approval
+
+The level of detail should be proportionate to system risk and reliance.
+
+---
+
+## Immutability and control
+
+A core principle of the framework is that AI-OPS must be **stable during operation**.
+
+This means:
+- AI systems must not be able to modify their own specification
+- changes to AI-OPS require formal review and approval
+- versioning and effective dates are explicit
+- historical specifications remain available for review
+
+This ensures that oversight is anchored to what was actually approved at a point in time.
+
+---
+
+## Relationship to human accountability
+
+AI-OPS explicitly allocates responsibility by making expectations unambiguous.
+
+It supports:
+- clear ownership of system outcomes
+- informed approval and risk acceptance
+- decisive escalation when boundaries are crossed
+- defensible intervention decisions
+
+Where responsibility is unclear, AI-OPS is treated as incomplete.
+
+---
+
+## What this framework is not
+
+This framework does not:
+- replace model development documentation
+- prescribe implementation architecture
+- attempt to optimise model performance
+- act as a policy or compliance checklist
+
+Its purpose is operational clarity and governance integrity.
+
+---
+
+## Status
+
+This framework is currently in **design and early prototyping**.
+
+Initial focus areas include:
+- defining a practical AI-OPS template
+- testing how specifications are used in pre-flight checks
+- validating how effectively specifications anchor monitoring and drift detection
+
+---
+
+## Positioning
+
+This framework reflects a focus on **AI governance by construction**, where
+expectations, authority, and accountability are defined before reliance begins.
+
+It is intended for use by business owners, operational teams, risk and compliance
+functions, and senior decision-makers responsible for approving and overseeing
+AI-enabled systems.

@@ -1,0 +1,23 @@
+## Conceptual Overview
+
+This diagram illustrates how operational oversight and monitoring fit within the
+broader AI governance operating model in a banking environment.
+
+At the base are AI systems and workflows embedded in business processes.
+These systems operate within authority and scope defined by lifecycle governance controls.
+
+Above this sits the operational oversight layer, which aggregates monitoring signals,
+detects drift or anomalies, and enables escalation and intervention.
+
+Human decision-makers remain explicitly in the loop, with clear ownership of:
+- oversight effectiveness
+- escalation decisions
+- intervention actions
+
+The diagram emphasises separation between:
+- AI execution
+- monitoring and oversight
+- human accountability
+
+Evidence generated through oversight activities is captured and linked to
+governance artefacts to support assurance and audit.

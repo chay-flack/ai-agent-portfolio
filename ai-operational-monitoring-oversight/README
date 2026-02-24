@@ -1,0 +1,158 @@
+## AI Operational Oversight & Monitoring Framework
+
+This repository describes a practical framework for providing ongoing oversight, monitoring,
+and intervention capability for AI systems and automated workflows operating within a
+large financial institution.
+
+The framework is designed to support continuous governance, decision integrity, and
+clear accountability once AI-enabled systems are live and relied upon in regulated,
+high-stakes environments.
+
+---
+
+## What this is
+
+This framework defines how a bank maintains **situational awareness and control**
+over AI-enabled systems during operation.
+
+It focuses on ensuring that AI systems:
+- continue to operate within approved authority and scope
+- behave consistently with their commissioned intent
+- remain subject to effective human oversight and intervention
+- can be paused, degraded, or withdrawn when risk increases
+
+The emphasis is on **operational governance**, not technical observability alone.
+
+---
+
+## Why this exists
+
+In banking environments, risk associated with AI systems typically emerges
+after deployment rather than at the point of approval.
+
+Common failure patterns include:
+- gradual behavioural or performance drift
+- changes in upstream data or downstream workflows
+- expansion of perceived authority beyond approval
+- unclear responsibility for intervention
+- monitoring that is fragmented across teams or tools
+
+This framework addresses the gap between **initial authorisation** and **ongoing reliance**
+on AI-enabled decision processes.
+
+---
+
+## Relationship to lifecycle governance and AI-OPS
+
+Operational oversight operates in conjunction with:
+- lifecycle governance and pre-flight controls
+- an approved AI Operational Specification (AI-OPS)
+
+AI-OPS defines what “good” operation looks like.
+Operational oversight monitors live behaviour **against that specification**.
+
+Drift, anomalies, and breaches are assessed relative to approved operating boundaries,
+not in isolation.
+
+---
+
+## Scope of oversight
+
+The framework supports oversight across:
+- individual AI agents
+- multi-agent workflows
+- AI-enabled decision support systems
+- automated operational processes embedded in core banking activities
+
+It applies to both:
+- systems transitioning from experimentation to production
+- systems already operating with material business or customer impact
+
+---
+
+## Core oversight capabilities
+
+Effective operational oversight requires:
+- visibility of system and workflow health
+- detection of behavioural, performance, or authority drift
+- identification of anomalies or unexpected outcomes
+- escalation pathways aligned to business and risk ownership
+- authority to pause, degrade, or roll back operation
+- evidence capture to support assurance, review, and audit
+
+The framework does not prescribe specific tools or platforms.
+
+---
+
+## Human accountability and intervention
+
+A core principle of the framework is that **oversight must be actionable**.
+
+This requires:
+- clearly defined ownership of oversight effectiveness
+- explicit decision rights to intervene or suspend operation
+- human review points for material issues
+- traceable records of decisions and outcomes
+
+Monitoring without authority to act is treated as insufficient.
+
+---
+
+## Monitoring cadence and proportionality
+
+Oversight should be proportionate to system risk, autonomy, and reliance.
+
+Supported monitoring modes include:
+- scheduled reviews (for example daily or periodic checks)
+- event-driven alerts
+- ad-hoc investigation
+- continuous or near-real-time signals where appropriate
+
+Monitoring intensity should increase as reliance and impact increase.
+
+---
+
+## Evidence and assurance
+
+Operational oversight must produce defensible, time-based evidence.
+
+This includes:
+- point-in-time views of system state
+- records of alerts, escalations, and interventions
+- historical views of behaviour and performance
+- linkage to approved AI-OPS and governance artefacts
+
+Evidence should be linked across systems rather than manually reproduced.
+
+---
+
+## What this framework is not
+
+This framework does not:
+- prescribe specific monitoring technologies or vendors
+- replace approval, risk acceptance, or governance forums
+- attempt to solve model development or tuning
+- assume full automation of oversight decisions
+
+Its purpose is to enable effective governance and control in practice.
+
+---
+
+## Status
+
+This framework is currently in **design and prototyping**.
+
+Initial focus areas include:
+- defining meaningful oversight signals
+- clarifying escalation and intervention patterns
+- aligning operational monitoring with governance expectations in a banking environment
+
+---
+
+## Positioning
+
+This framework reflects a focus on **AI governance, operating models, and decision accountability**
+within large financial institutions.
+
+It is intended to support business owners, operational teams, risk and compliance functions,
+and senior leaders responsible for maintaining trust in AI-enabled systems.
